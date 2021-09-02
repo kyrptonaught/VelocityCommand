@@ -14,7 +14,7 @@ import java.util.Collection;
 public class VelocityCommand {
 
     public static void register(CommandDispatcher<ServerCommandSource> dispatcher) {
-        dispatcher.register(CommandManager.literal("velocityraw")
+        dispatcher.register(CommandManager.literal("velocity")
                 .requires((source) -> source.hasPermissionLevel(2))
                 .then(CommandManager.argument("entity", EntityArgumentType.entities())
                         .then(CommandManager.literal("add")

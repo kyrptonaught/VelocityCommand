@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "velocitycommand",
+  "version": "0.0.1-1.17",
+  "name": "Velocity Command",
+  "description": "Allows the changing of a players velocity through a command!",
+  "authors": [
+    "kyrptonaught"
+  ],
+  "contact": {
+    "homepage": "https://github.com/kyrptonaught/SwitchableResourcepacks",
+    "sources": "https://github.com/kyrptonaught/SwitchableResourcepacks"
+  },
+  "license": "MIT",
+  "icon": "assets/kyrptcarts/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.kyrptonaught.velocitycommand.VelocityCommandMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  }
+}

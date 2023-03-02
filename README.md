@@ -4,6 +4,7 @@ This module adds 2 commands:
 
 * `/velocityforward <selector> <speed>`
 * `/modifyvelocity <selector> <add/set> <x> <y> <z>`
+* `/startfallfly <selector>`
 
 The speed and xyz options are a float
 

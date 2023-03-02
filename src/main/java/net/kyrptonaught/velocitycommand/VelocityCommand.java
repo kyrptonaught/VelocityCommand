@@ -38,8 +38,7 @@ public class VelocityCommand {
                                     double speed = DoubleArgumentType.getDouble(commandContext, "speed");
                                     EntityArgumentType.getEntities(commandContext, "entity").forEach(entity -> {
                                         Vec3d vec3d = entity.getRotationVector();
-                                        Vec3d vec3d2 = entity.getVelocity();
-                                        entity.setVelocity(vec3d2.add(vec3d.x * 0.1D + (vec3d.x * 1.5D - vec3d2.x) * speed, vec3d.y * 0.1D + (vec3d.y * 1.5D - vec3d2.y) * speed, vec3d.z * 0.1D + (vec3d.z * 1.5D - vec3d2.z) * speed));
+                                        entity.addVelocity(vec3d.x * 0.1D + (vec3d.x * 1.5D) * speed, vec3d.y * 0.1D + (vec3d.y * 1.5D) * speed, vec3d.z * 0.1D + (vec3d.z * 1.5D) * speed);
                                         entity.velocityModified = true;
                                     });
                                     return 1;

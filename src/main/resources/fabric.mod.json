@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "velocitycommand",
-  "version": "0.0.1-1.17",
+  "version": "1.0.0-1.19",
   "name": "Velocity Command",
   "description": "Allows the changing of a players velocity through a command!",
   "authors": [
@@ -12,7 +12,7 @@
     "sources": "https://github.com/kyrptonaught/VelocityCommand"
   },
   "license": "MIT",
-  "icon": "assets/kyrptcarts/icon.png",
+  "icon": "assets/velocitycommand/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -20,6 +20,6 @@
     ]
   },
   "depends": {
-    "java": ">=16"
+    "java": ">=17"
   }
 }

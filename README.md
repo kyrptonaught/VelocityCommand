@@ -8,4 +8,6 @@ This mod adds 3 commands:
 
 The speed and xyz options are a float
 
-using the `add` option for modifyvelocity will add onto the player's current velocity, while `set` will replace their current velocity with your new values
+Using the `add` option for modifyvelocity will add onto the player's current velocity, while `set` will replace their current velocity with your new values
+
+/startfallfly will trigger elytra flight

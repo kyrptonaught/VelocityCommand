@@ -1,6 +1,6 @@
 ## Velocity Command
 
-This module adds 2 commands:
+This mod adds 3 commands:
 
 * `/velocityforward <selector> <speed>`
 * `/modifyvelocity <selector> <add/set> <x> <y> <z>`
